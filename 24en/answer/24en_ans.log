@@ -1,0 +1,231 @@
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.4.3)  13 APR 2024 18:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**24en_ans.tex
+(./24en_ans.tex
+pLaTeX2e <2021-11-15> (based on LaTeX2e <2021-11-15> patch level 1)
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
+\c@@paper=\count184
+(/usr/share/texlive/texmf-dist/tex/platex/base/jsize12.clo
+File: jsize12.clo 2020/09/30 v1.8f Standard pLaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 615.
+\toclineskip=\dimen154
+\@lnumwidth=\dimen155
+\bibindent=\dimen156
+\heisei=\count193
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bxpapersize/bxpapersize.sty
+Package: bxpapersize 2020/10/01 v0.5
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count194
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifptex/ifptex.sty
+Package: ifptex 2021/07/01 v2.1 pTeX checker
+)
+\bxpr@dima=\dimen157
+Package bxpapersize Info: Detected the new LaTeX kernel (2020-10-01).
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2021/03/18 v5.0j Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/here/here.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count195
+\float@exts=\toks19
+\float@box=\box67
+\@float@everytoks=\toks20
+\@floatcapt=\box68
+)
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks21
+\SOUL@lasttoken=\toks22
+\SOUL@cmds=\toks23
+\SOUL@buffer=\toks24
+\SOUL@token=\toks25
+\SOUL@spaceskip=\skip49
+\SOUL@ttwidth=\dimen160
+\SOUL@uldp=\dimen161
+\SOUL@ulht=\dimen162
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box69
+\UL@hyphenbox=\box70
+\UL@skip=\skip50
+\UL@hook=\toks26
+\UL@height=\dimen163
+\UL@pe=\count196
+\UL@pixel=\dimen164
+\ULC@box=\box71
+Package: ulem 2019/11/18
+\ULdepth=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+File: l3backend-dvipdfmx.def 2022-01-12 L3 backend support: dvipdfmx
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count266
+\l__color_backend_stack_int=\count267
+\g__color_backend_stack_int=\count268
+\g__graphics_track_int=\count269
+\l__pdf_internal_box=\box72
+\g__pdf_backend_object_int=\count270
+\g__pdf_backend_annotation_int=\count271
+\g__pdf_backend_link_int=\count272
+) (./24en_ans.aux)
+\openout1 = `24en_ans.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* detected driver: dvipdfm
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvipdfm
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 631.65118pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=631.65118pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=9.33105pt
+* \footskip=30.0pt
+* \marginparwidth=83.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+[1
+
+] [2] [3] [4] [5] [6] [7] [8] (./24en_ans.aux) ) 
+Here is how much of TeX's memory you used:
+ 2377 strings out of 479850
+ 40252 string characters out of 5887379
+ 342016 words of memory out of 5000000
+ 20696 multiletter control sequences out of 15000+600000
+ 476609 words of font info for 58 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 55i,5n,62p,672b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 24en_ans.dvi (8 pages, 8860 bytes).
