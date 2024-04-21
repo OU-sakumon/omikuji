@@ -15,6 +15,8 @@ for i in range(1, 6):
 
 c.save()
 
+output = PdfFileWriter()
+
 # Open the files you want to import
 files_to_import = ["file1.pdf", "file2.pdf", "file3.pdf"]
 for file_name in files_to_import:
@@ -28,5 +30,3 @@ for file_name in files_to_import:
 # Write the output file
 output_stream = open("merged.pdf", "wb")
 output.write(output_stream)
-
-
