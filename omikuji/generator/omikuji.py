@@ -1,9 +1,7 @@
 from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import letter
 from reportlab.lib.colors import lightgrey
 from reportlab.lib.units import inch
 
-margin = 72
 page_width = 8.27 * inch
 page_height = 11.69 * inch
 section_height = page_height / 6
