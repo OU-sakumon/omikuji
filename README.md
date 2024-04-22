@@ -8,5 +8,13 @@
 
 このレポジトリでは、それをPythonを用いて自動化します。
 
+# 使い方
+1. Visual Studio Codeを開く
+2. ターミナルを開く
+3. （初回のみ）`git clone git@github.com:yunaimatsu/sakumon.git`をコピペして実行する
+4. `git pull --all`を実行する
+5. LaTeXで問題を作る
+6. 
+
 > English
 # Automate the generation of Omikuji
