@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.4.3)  21 APR 2024 13:35
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.4.3)  22 APR 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -239,7 +239,7 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 133.
  [3] [4] [5] [6] [7] [8] [9]
-Overfull \hbox (0.64604pt too wide) in paragraph at lines 337--339
+Overfull \hbox (0.64604pt too wide) in paragraph at lines 336--338
 []  []$[]$[] 
  []
 
@@ -253,4 +253,4 @@ Here is how much of TeX's memory you used:
  264 hyphenation exceptions out of 8191
  55i,6n,62p,1192b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 24en.dvi (11 pages, 27968 bytes).
+Output written on 24en.dvi (11 pages, 27952 bytes).

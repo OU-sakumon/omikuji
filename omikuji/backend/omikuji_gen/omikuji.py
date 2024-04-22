@@ -3,6 +3,8 @@ from reportlab.lib.colors import lightgrey
 from reportlab.lib.units import inch
 from PyPDF2 import PdfWriter, PdfReader
 
+output = PdfWriter()
+
 # Open the files you want to import
 files_to_import = ["file1.pdf", "file2.pdf", "file3.pdf"]
 for file_name in files_to_import:
@@ -12,8 +14,6 @@ for file_name in files_to_import:
     # Add the pages from the input file to the output file
     for i in range(len(input_pdf.pages)):
         output.add_page(input_pdf.pages[i])
-
-output = PdfWriter()
 
 # Write the output file
 output_stream = open("merged.pdf", "wb")
