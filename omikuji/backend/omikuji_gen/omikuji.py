@@ -1,32 +1,69 @@
+import os
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import lightgrey
 from reportlab.lib.units import inch
-from PyPDF2 import PdfWriter, PdfReader
+from reportlab.platypus import Image
+from pdf2image import convert_from_path
+from datetime import datetime
 
-output = PdfWriter()
+# import pdf
+## specify the directory-name
+## import from `pdf`
+# convert pdf into png
+# add png to pdf
+# draw lines on pdf
 
-# Open the files you want to import
-files_to_import = ["file1.pdf", "file2.pdf", "file3.pdf"]
-for file_name in files_to_import:
-    input_stream = open(file_name, "rb")
-    input_pdf = PdfReader(input_stream)
+def add_pdf():
+    # Specify the directory
+    omikuji_gen_path = os.getcwd()
+    backend_path = os.path.dirname(omikuji_gen_path)
+    pdf_path = os.path.join(backend_path, "pdf")    
+    imported_pdf = os.listdir(pdf_path)
+    png_path = os.path.join(backend_path, "png")
+    
+    os.makedirs(png_path, exist_ok=True)
+    
+    png_images = []
 
-    # Add the pages from the input file to the output file
-    for i in range(len(input_pdf.pages)):
-        output.add_page(input_pdf.pages[i])
+    for pdf in imported_pdf:
+        # Convert the PDF to images
+        images = convert_from_path(os.path.join(pdf_path, pdf))
 
-# Write the output file
-output_stream = open("merged.pdf", "wb")
-output.write(output_stream)
+        # Save each image
+        for i, image in enumerate(images):
+            image_path = os.path.join(png_path, f'{os.path.splitext(pdf)[0]}_{i}.png')
+            image.save(image_path, 'PNG')
+            png_images.append(image_path)
+            
+    now = datetime.now()
+    timestamp = now.strftime("%Y_%m_%d_%H_%M")
 
-page_width = 8.27 * inch
-page_height = 11.69 * inch
-section_height = page_height / 6
+    c = canvas.Canvas(f"new_example_{timestamp}.pdf")
+    
+    pages_needed = len(png_images) // 6 + (len(png_images) % 6 > 0)
+    
+    page_width = 8.27 * inch
+    page_height = 11.69 * inch
+    section_height = page_height / 6
 
-c = canvas.Canvas("new_example.pdf")
-c.setStrokeColor(lightgrey)
+    for page in range(pages_needed):
+        for i in range(6):
+            image_index = page * 6 + i
+            if image_index < len(png_images):
+                # Add the image to the PDF. Adjust the position as needed.
+                c.drawImage(png_images[image_index], 0, i * section_height, width=page_width, height=section_height)
 
-for i in range(1, 6):
-    c.line(0, i * section_height, page_width, i * section_height)
+    c.setStrokeColor(lightgrey)
+    
+    for i in range(1, 6):
+        c.line(0, i * section_height, page_width, i * section_height)
+    c.showPage()  # End the current page and start a new one
 
-c.save()
+    c.setStrokeColor(lightgrey)
+
+    for i in range(1, 6):
+        c.line(0, i * section_height, page_width, i * section_height)
+    c.showPage()  # End the current page and start a new one
+    c.save()
+
+add_pdf()

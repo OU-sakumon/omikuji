@@ -11,5 +11,15 @@ do
   dvipdfmx "$file"
 done
 
-rm *.dvi *.aux *.log *.out
+rm *.dvi *.aux *.log
 mv *.pdf ../backend/pdf
+
+cd ../backend/omikuji_gen
+/usr/bin/python3 omikuji.py
+
+cd ../pdf
+rm *.pdf
+
+cd ../png
+rm *.png
+
