@@ -12,9 +12,8 @@
 1. Visual Studio Codeを開く
 2. ターミナルを開く
 3. （初回のみ）`git clone git@github.com:yunaimatsu/sakumon.git`をコピペして実行する
-4. `git pull --all`を実行する
-5. LaTeXで問題を作る
-6. 作問が終わったら`omikuji`ディレクトリの中で`source gen.sh`をコピペして実行する
+4. LaTeXで問題を作る
+5. 作問が終わったら`omikuji`ディレクトリの中で`source gen.sh`をコピペして実行する
 
 # 展望
 Webページ形式にしてブラウザ上でノーコードで作業できるようなUIにしたい。
