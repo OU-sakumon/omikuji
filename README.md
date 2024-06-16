@@ -8,9 +8,8 @@
 このレポジトリでは、それをPythonを用いて自動化します。
 
 # 使い方
-1. Visual Studio Codeを開く
-2. ターミナルを開く
-3. （初回のみ）`git clone git@github.com:yunaimatsu/sakumon.git`をコピペして実行する
+1. ターミナルを開く
+3. （初回のみ）`git clone git@github.com:yunaimatsu/omikuji.git`をコピペして実行する
 4. LaTeXで問題を作る
 5. 作問が終わったら`omikuji`ディレクトリの中で`source gen.sh`をコピペして実行する
 
